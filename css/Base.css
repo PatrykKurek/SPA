@@ -1,0 +1,418 @@
+body {
+	font-family: 'Archivo Black', sans-serif;
+	background-image: url("../img/tloo.jpg");
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	min-width:760px;
+	}
+	#mapa{
+		overflow:auto;
+		margin-top:50px;
+		
+		
+	}
+	#map {
+		
+		height:400px;
+		width:40%;
+		margin-left:30px;
+		float:left;
+		border-radius:30px 0px 0px 30px;
+		border-bottom:5px solid #573519;
+		border-left:5px solid #573519;
+		border-top:5px solid #573519;
+		
+		
+	}
+	
+	#kadra{
+	border-radius:30px;	
+	max-width:720px;
+	border:5px solid #573519;
+	
+	}
+	#test{
+		
+		overflow:auto;
+		height:400px;
+		width:50%;
+		border-radius: 0px 30px 30px 0px;
+		border-bottom:5px solid #573519;
+		border-right:5px solid #573519;
+		border-top:5px solid #573519;
+	float:left;	
+	background-image: url("../img/enter.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    
+	}
+#menu{
+	 background-color: #573519;
+		box-shadow: 3px 3px 3px black;
+        min-height: 75px;
+		margin-bottom:3px;
+		
+}
+#face{
+	z-index:2;
+	position:fixed;
+	top: 80px;
+    right: -210px;
+	
+}
+#face2{
+	display:inline-block;
+	float:left;
+}
+#facefoto{
+	display:inline-block;
+	float:left;
+	border-radius:10px 0 0 10px;
+	
+}
+td, tr {
+	 border-bottom: 1px solid #573519;
+}
+.nav{
+   list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+	
+}
+.link{
+    display:inline-block;
+    padding:24px 24px;
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	box-shadow: 0px -5px 1px 0px rgba(0,0,0,1);
+	transition: all 0.5s;
+	
+}
+.link:hover { 
+
+    font-size:25px;
+    color: yellow;
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,1);
+}
+.w3-content{
+	margin-top:3px;
+}
+.kraj{
+	border-radius:5px;
+	float:right;
+	margin-top:10px;
+	padding:2px;
+}
+.logo{
+		vertical-align: bottom;
+	}
+.info
+{
+	text-transform: uppercase;
+	text-align: center;
+	width:100%;
+	height:50px;
+	color: #553317; 
+	  }
+.openhandler{
+	vertical-align: top;
+	width:24%;
+	display:inline-block;
+	text-align: center;
+	}
+.open {
+	vertical-align: top;
+text-align: center;
+display:inline-block;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .openhandler{
+        width: 49%;
+    }
+	#pionowe11,#pionowe12,#pionowe31, #pionowe32, #cennik2 {
+	width:100%;
+}
+	#slider1_container{
+		width:768px;
+	}
+	#cennikspa,#cenniksalon,#cenniksilownia,#test,#map{
+		width:100%;
+	}
+	#test{
+		box-sizing: border-box;
+	border-left:5px solid #573519;	
+	border-radius:30px;
+	}
+	#map{
+		box-sizing: border-box;
+		border-right:5px solid #573519;		
+		margin-left:0px;
+		margin-right: 20px;
+		border-radius:30px;	
+	}
+	#menu{
+	box-shadow: 3px 10px 5px black;	
+	margin-bottom:8px;
+	}
+	.kraj{
+		display:none;
+	}
+	.link{
+	width:30%;
+	padding: 15px 0px 15px 0px;
+	font-size:30px;
+	box-shadow: 0px 0px 0px 0px;
+	}
+	
+}
+	
+.foto{
+	  border: 3px solid #573519;
+	 border-radius:25px;
+}
+.fotocennik{
+	 border: 3px solid #573519;
+	display:inline-block;
+	text-align: center;
+	 border-radius:10px;
+	  -webkit-transition: width 0.5s, height 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s, height 0.5s;
+	
+}
+.fotocennik:hover{
+width: 100px;
+    height: 100px;
+}
+.cennik {
+	float:left;
+	width:33%;
+	margin-top:30px;
+	margin-bottom:50px;
+	font-size:22px;
+	border-radius:25px;
+	}
+	#cennik2{
+		overflow:auto;
+		float:left;
+		width:100%;
+		
+	}
+.cennik:hover{
+	color:yellow;
+		
+}
+#pionowe11,#pionowe12,#pionowe31, #pionowe32, #cennik2 {
+	display:none;
+}
+#kolor1,#kolor2,#kolor3{
+border-radius:25px;
+}
+
+#kolor1:hover,#kolor2:hover,#kolor3:hover {
+ 
+}
+	
+
+
+#zabiegi11, #zabiegi12, #zabiegi13, #zabiegi14, #zabiegi15, #zabiegi16,
+#zabiegi17, #zabiegi18, #zabiegi19, #zabiegi37, #zabiegi38, #zabiegi39,  
+#zabiegi31, #zabiegi32, #zabiegi33, #zabiegi34, #zabiegi35, #zabiegi36, #zabiegi40{
+display:none;
+	padding:5px;
+
+}
+table.rowno {
+	width:100%;
+	max-width:900px;
+}
+
+h3 {
+color: #553317;  	
+}
+p{
+	display: inline-block;
+	color: #553317; 
+	vertical-align:top;
+	text-align:top;
+	
+}
+.opisy{
+	display:none;
+}
+.pionowe{
+	vertical-align: top;
+	width:49%;
+	float:left;
+	text-align: left;
+}
+.menuhandler{
+	vertical-align: top;
+	width:100%;
+	float:left;
+	min-height:130px;
+	display:inline-block;
+	text-align: left;
+	
+	}
+.tresc{
+	vertical-align: top;
+	width:84%;
+	
+	display:inline-block;
+	text-align: left;
+	 }
+.komorka{
+	vertical-align: top;
+	width:15%;
+	 border-radius:10px;
+	display:inline-block;
+	text-align: right;
+	
+	 }
+
+	 
+span {
+	
+  vertical-align: top;
+ display:block;
+}  
+#tel{
+	margin-top:5px;
+	
+}
+#onas{
+	color:#573519;
+	width:100%;
+	height:500px;
+	text-align:center;
+}
+#rezerwacja{
+	
+	width:100%;
+	display:block;
+	
+}
+
+		
+
+        .jssorb21 {
+            position: absolute;
+            bottom: 26px;
+            left: 6px;
+        }
+        .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 19px;
+            height: 19px;
+            text-align: center;
+            line-height: 19px;
+            color: white;
+            font-size: 12px;
+            background: url(img/b21.png) no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb21 div { background-position: -5px -5px; }
+        .jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
+        .jssorb21 .av { background-position: -65px -5px; }
+        .jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
+    
+        .jssora21l, .jssora21r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url(img/a21.png) center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora21l { background-position: -3px -33px; }
+        .jssora21r { background-position: -63px -33px; }
+        .jssora21l:hover { background-position: -123px -33px; }
+        .jssora21r:hover { background-position: -183px -33px; }
+        .jssora21l.jssora21ldn { background-position: -243px -33px; }
+        .jssora21r.jssora21rdn { background-position: -303px -33px; }
+
+        .jssora21l.jssora21lds { background-position: -3px -33px; opacity: .3; pointer-events: none; }
+        .jssora21r.jssora21rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
+		
+.form-style-9{
+    max-width: 450px;
+    background: #FAFAFA;
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 30px;
+    border: 6px solid #573519;
+}
+.form-style-9 ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.form-style-9 ul li{
+    display: block;
+    margin-bottom: 10px;
+    min-height: 35px;
+}
+.form-style-9 ul li  .field-style{
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    padding: 8px;
+    outline: none;
+    border: 1px solid #B0CFE0;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+
+}.form-style-9 ul li  .field-style:focus{
+    box-shadow: 0 0 5px #B0CFE0;
+    border:1px solid #B0CFE0;
+}
+.form-style-9 ul li .field-split{
+    width: 49%;
+}
+.form-style-9 ul li .field-full{
+    width: 100%;
+}
+.form-style-9 ul li input.align-left{
+    float:left;
+}
+.form-style-9 ul li input.align-right{
+    float:right;
+}
+.form-style-9 ul li textarea{
+    width: 100%;
+    height: 100px;
+}
+.form-style-9 ul li input[type="button"], 
+.form-style-9 ul li input[type="submit"] {
+    -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    box-shadow: inset 0px 1px 0px 0px #3985B1;
+    background-color: brown;
+    border: 1px solid #17445E;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-9 ul li input[type="button"]:hover, 
+.form-style-9 ul li input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+    background-color: #28739E;
+}
+    
